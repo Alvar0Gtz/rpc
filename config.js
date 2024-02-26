@@ -1,5 +1,5 @@
 const
-  discord = require("discord.js-selfbot-v13");
+  discord = require("discord.js");
  
 function reloadPresence(client) {
     const activity = new discord.RichPresence()
